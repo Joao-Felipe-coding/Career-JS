@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <section class="container">
+    <h1>Calcule seu IMC</h1>
+
+    <div class="loading">
+      <svg width="64px" height="48px">
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+        <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+      </svg>
+    </div>
+
+    <form action="" id="formulario" method="post">
+      <input type="text" autocomplete="off" class="input" placeholder="Peso" name="peso" id="peso">
+      <input type="text" autocomplete="off" class="input" placeholder="Altura" name="altura" id="altura">
+
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="resultado"></div>
+
+    
+  </section>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
