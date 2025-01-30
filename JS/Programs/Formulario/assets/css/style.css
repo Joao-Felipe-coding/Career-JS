@@ -14,8 +14,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: var(--background-color);
   font-family: 'Poppins', sans-serif;
   color: var(--letter-color);
@@ -40,7 +38,7 @@ form input, form label, form button {
 form input {  
   border: 1px solid var(--letter-color);
   box-shadow: none; 
-  font-size: 24px;
+  font-size: 16px;
   height: 50px;
   padding: 0 20px;
 } form input:focus {
@@ -70,4 +68,8 @@ form button {
 .error-text {
   font-size: 10px;
   color: red;
+}
+
+ li {
+  font-size: 15px;
 }
