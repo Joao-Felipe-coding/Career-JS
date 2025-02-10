@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary-color: #ffffff;
+  --primary-color-dark: #665e4f;
+  --background-color: #F0F2F5;
+  --letter-color: #483C32;
+  --focus-color: #483C32;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Poppins', sans-serif;
+  color: var(--letter-color);
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 380px;
+  margin: 40px auto;
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+button {
+  display: block;
+  margin: 30px 0;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--focus-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+} button:hover {
+  background-color: var(--primary-color-dark);
+} button:active {
+  background-color: #29221de7;
+}
+
+.senha-gerada {
+  line-height: 1em;
+  font-size: 1.5em;
+  color: var(--primary-color-dark);
+  margin: 40px 0;
+}
