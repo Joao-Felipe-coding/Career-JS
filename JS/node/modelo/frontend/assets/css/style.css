@@ -2,10 +2,10 @@
 
 :root {
   --primary-color: #ffffff;
-  --primary-color-dark: #665e4f;
+  --primary-color-dark: #000000;
   --background-color: #F0F2F5;
-  --letter-color: #483C32;
-  --focus-color: #483C32;
+  --letter-color: #424242;
+  --focus-color: rgb(0, 105, 190);
 }
 
 * {
@@ -38,7 +38,7 @@ form input, form label, form button {
 }
 
 form input {
-  border-color: #483C32;
+  border: 1px solid #dcdcdc;
   font-size: 24px;
   height: 50px;
   padding: 0 20px;
@@ -55,7 +55,7 @@ form button {
   height: 50px;
   cursor: pointer;
 } form button:hover {
-  background-color: var(--primary-color-dark);
+  background-color: #004b88e7;
 } form button:active {
-  background-color: #29221de7;
+  background-color: var(--focus-color);
 }
