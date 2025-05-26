@@ -22,5 +22,10 @@ module.exports = {
       use: ['style-loader', 'css-loader']
     }]
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  watch: true,                // ativa o modo watch
+  watchOptions: {             // configura polling
+    ignored: /node_modules/,
+    poll: 1000                // verifica a cada 1s
+  }
 };
