@@ -22,6 +22,12 @@ body {
   line-height: 1.5em;
 }
 
+.alert-danger, .alert-success {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
 .alert-danger {
   display: flex;
   background-color: #f8d7da;
