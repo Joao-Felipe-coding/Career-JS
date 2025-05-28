@@ -45,3 +45,21 @@ body {
   border: 1px solid #c3e6cb;
   border-radius: 8px;
 }
+
+.text-edit {
+  color: var(--focus-color);
+  text-decoration: none;
+}
+
+.text-edit:hover {
+  text-decoration: underline;
+}
+
+.text-danger {
+  color: #9b000f; /* Vermelho escuro para o link de excluir */
+  text-decoration: none;
+}
+
+.text-danger:hover {
+  text-decoration: underline;
+}
