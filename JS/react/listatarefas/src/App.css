@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "cera";
-  src: url("/public/fonts/Fontspring-DEMO-ceraroundpro-medium.otf");
+  font-family: "rounded";
+  src: url("/public/fonts/Helvetica-rounded-bold.otf");
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "cera";
+  font-family: "rounded";
   background: #ffffff;
 }
 
