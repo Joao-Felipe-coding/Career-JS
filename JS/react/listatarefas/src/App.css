@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "cera";
+  src: url("/public/fonts/Fontspring-DEMO-ceraroundpro-medium.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +11,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "cera";
   background: #ffffff;
 }
 
