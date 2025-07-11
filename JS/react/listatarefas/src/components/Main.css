@@ -52,8 +52,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 22px;
   transition: all 600ms;
 }
 
@@ -65,17 +66,25 @@
 .tarefas li .actions {
   display: flex;
   align-items: center;
+  background: #000;
+  padding: 10px;
+  border-radius: 22px;
   gap: 1rem;
+  transition: ease-in-out 0.5s;
 }
 
 .tarefas li .edit,
 .tarefas li .delete {
-  color: #000;
+  color: #fff;
   transition: all 600ms;
   cursor: pointer;
 }
 
+.tarefas li:hover .actions {
+  background-color: #fff;
+}
+
 .tarefas li:hover .edit,
 .tarefas li:hover .delete {
-  color: #fff;
+  color: #000;
 }
