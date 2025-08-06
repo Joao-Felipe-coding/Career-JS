@@ -7,6 +7,7 @@ export const Redirect = () => {
 	const timeout = useRef(0);
 	const navigate = useNavigate();
 
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
 	useEffect(() => {
 		clearTimeout(timeout.current);
 
